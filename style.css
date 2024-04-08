@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
 
 .header ul {
   display: flex;
@@ -56,8 +55,122 @@
   padding: 10px 10px;
   display: inline-block;
 }
-.photo{
-  display: flex; 
-  justify-content: space-between; 
-  color: #FFFFFF;
+.photo {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.price {
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+}
+
+.Photo_frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price,
+.Name,
+.headline-text {
+  margin-left: 10px;
+}
+
+.headline-text {
+  color: #fff;
+  background: #c85312;
+  text-align: center;
+  padding: 5px 5px;
+  display: inline-block;
+}
+.menu-wrapper {
+  width: 1440px;
+  height: 775px;
+  background: #202023;
+}
+.menu_text {
+  font-family: "Inter";
+  font-weight: 100;
+  font-size: 64px;
+  color: #fff;
+  padding-top: 21px;
+  padding-left: 550px;
+}
+.Pictures {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.Pictures li {
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+.Pictures img {
+  width: 100%;
+}
+.eat {
+  font-weight: 800;
+  font-size: 25px;
+  color: #fff;
+}
+.order {
+  font-weight: 800;
+  flex-wrap: wrap;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 17px;
+  width: 160px;
+  height: 41px;
+  background: #b47b48;
+}
+.Cover {
+  list-style-type: none;
+}
+
+.menu-wrapper {
+  width: 1440px;
+  height: auto;
+  background: #202023;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.menu_text {
+  font-family: "Inter";
+  flex-wrap: wrap;
+  font-weight: 100;
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.price,
+.Name,
+.headline-text {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.headline-text {
+  color: #fff;
+  background: #c85312;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
