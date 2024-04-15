@@ -20,6 +20,11 @@
   margin-left: 150px;
   margin-right: 120px;
 }
+.info-wrapper {
+  width: 2730px;
+  height: 580px;
+  background: url(./img/Rectangle\ 1.jpg);
+}
 .header-wrapper {
   width: 1440px;
   height: 1023px;
@@ -200,14 +205,13 @@
   height: 204px;
 }
 
-
-.quality{
-    background: url(./img/msg-1001952986540-392.jpg);
-} 
+.quality {
+  background: url(./img/msg-1001952986540-392.jpg);
+}
 .child_ul {
   position: relative;
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -221,12 +225,68 @@
 }
 
 .child:nth-child(2) {
-  top: 50%; 
-  left: 50%; 
-
+  top: 50%;
+  left: 50%;
 }
 
 .child:nth-child(3) {
   bottom: 0;
   right: 0;
 }
+.Some_text {
+  font-weight: 400;
+  padding-top: 54px;
+  font-size: 48px;
+  color: #d9d9d9;
+}
+.Quality_bekary {
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+}
+.Some_text {
+  position: relative;
+}
+
+.Some_text p::before {
+  
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.Stickers{
+  font-weight: 700;
+font-size: 24px;
+color: #fff;
+}
+.Sticker{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  }
+.Snickers{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  }
+
+.Stickers::before {
+  content: url('./img/Frame\ 3.png'); 
+}
+
+.Sticker::before {
+  content: url('./img/Group\ 2.png'); 
+}
+
+.Snickers::before {
+  content: url('./img/Group\ 6.png'); 
+}
+.mars{
+  width: 48%;
+  justify-content: space-between;
+  display: flex;
+}
+
