@@ -44,6 +44,10 @@
   background: url(./img/msg-1001952986540-392.jpg);
 }
 
+.Where-wrapper {
+  background: url(./img/Rectangle\ 27.png);
+}
+
 .text_1 {
   padding-top: 22px;
   padding-right: 709px;
@@ -96,11 +100,11 @@
   background: #272727;
   align-items: flex-end;
 }
-.photo_yellow{
+.photo_yellow {
   display: flex;
   border-radius: 17px;
   background: #ebad51;
-  align-items: flex-end; 
+  align-items: flex-end;
 }
 
 .price,
@@ -277,5 +281,12 @@
 .Snickers {
   font-weight: 700;
   font-size: 24px;
+  color: #fff;
+}
+
+.question {
+  padding-top: 66px;
+  font-weight: 400;
+  font-size: 48px;
   color: #fff;
 }
