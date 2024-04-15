@@ -91,7 +91,16 @@
 
 .photo {
   display: flex;
+  margin-right: 120px;
+  border-radius: 17px;
+  background: #272727;
   align-items: flex-end;
+}
+.photo_yellow{
+  display: flex;
+  border-radius: 17px;
+  background: #ebad51;
+  align-items: flex-end; 
 }
 
 .price,
