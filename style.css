@@ -248,45 +248,25 @@
   position: relative;
 }
 
-.Some_text p::before {
-  
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
+.bounty {
+  margin-top: 119px;
+  margin-right: 143px;
   display: flex;
-  justify-content: space-around;
-}
-.Stickers{
-  font-weight: 700;
-font-size: 24px;
-color: #fff;
-}
-.Sticker{
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-  }
-.Snickers{
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-  }
-
-.Stickers::before {
-  content: url('./img/Frame\ 3.png'); 
-}
-
-.Sticker::before {
-  content: url('./img/Group\ 2.png'); 
-}
-
-.Snickers::before {
-  content: url('./img/Group\ 6.png'); 
-}
-.mars{
   width: 48%;
   justify-content: space-between;
-  display: flex;
 }
-
+.Stickers {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.Sticker {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.Snickers {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
