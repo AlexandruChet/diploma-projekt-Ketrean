@@ -45,6 +45,8 @@
 }
 
 .Where-wrapper {
+  width: 1440px;
+  height: 1023px;
   background: url(./img/Rectangle\ 27.png);
 }
 
@@ -221,7 +223,7 @@
 .quality {
   background: url(./img/msg-1001952986540-392.jpg);
 }
-.child_ul {
+/* .child_ul {
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -251,7 +253,7 @@
   padding-top: 54px;
   font-size: 48px;
   color: #d9d9d9;
-}
+} */
 .Quality_bekary {
   font-weight: 400;
   font-size: 64px;
@@ -289,4 +291,28 @@
   font-weight: 400;
   font-size: 48px;
   color: #fff;
+}
+.question_hard {
+  margin-right: 81px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+
+.question_easy {
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Where div{
+  display: flex;
+  justify-content: space-between;
+}
+.Where img {
+
+}
+.Where{
+  display: flex;
+  flex-direction: column;
 }
