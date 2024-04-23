@@ -220,44 +220,11 @@
   max-width: 294px;
 }
 
-.img_child {
-  border-radius: 112px;
-  width: 302px;
-  height: 204px;
-}
-
 .Quality_bekary {
   font-weight: 400;
   font-size: 64px;
   color: #fff;
 }
-.Some_text {
-  position: relative;
-}
-
-.bounty {
-  margin-top: 119px;
-  margin-right: 143px;
-  display: flex;
-  width: 48%;
-  justify-content: space-between;
-}
-.Stickers {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-.Sticker {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-.Snickers {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-
 .question {
   padding-top: 66px;
   font-weight: 400;
@@ -322,7 +289,7 @@
 }
 .bounty {
   margin-top: 119px;
-margin-right: 700px;
+  margin-right: 700px;
   display: flex;
   width: 48%;
   justify-content: space-between;
@@ -347,23 +314,13 @@ margin-right: 700px;
 }
 
 .Stickers {
+  margin-right: 100px;
+  justify-content: space-between;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
 }
-.Sticker {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-.Snickers {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-.Some_text{
-  margin-left: 0;
-}
+
 .foother_text {
   font-weight: 200;
   font-size: 40px;
@@ -449,12 +406,6 @@ margin-right: 700px;
   color: #fff;
 }
 
-
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 20px;
-}
 .footer {
   color: #fff;
   padding: 10px 0;
@@ -463,8 +414,9 @@ margin-right: 700px;
 .left-text {
   text-align: center;
   width: 33%;
-  font-size: 18px;
-  margin-bottom: 1px;
+  font-weight: 200;
+  font-size: 40px;
+  color: #fff;
 }
 .smoll_left_ultra_text {
   display: flex;
@@ -475,23 +427,53 @@ margin-right: 700px;
   float: right;
   width: 15%;
   padding-right: 528px;
-  
+
   justify-content: space-between;
   font-size: 12px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 .small-text {
   font-size: 10px;
 }
-li{
+li {
   list-style-type: none;
 }
-.left-text_small-text{
+.left-text_small-text {
   display: flex;
   margin-left: 150px;
   justify-content: space-between;
   margin-left: 500px;
 }
-.import{
+.import {
   display: flex;
+}
+.p_footer {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+.footer_li {
+  margin-right: 215px;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+.text_footer {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.the_end {
+  font-weight: 100;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 86px;
+  background-color: #272727;
+}
+.Some_text {
+  font-weight: 400;
+  font-size: 48px;
+  color: #d9d9d9;
 }
