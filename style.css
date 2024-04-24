@@ -26,12 +26,12 @@
   margin-right: 120px;
 }
 .info-wrapper {
-  width: 2730px;
+  width: 100%;
   height: 580px;
-  background: url(./img/Rectangle\ 1.jpg);
+  background: url(./img/Rectangle\ 1.jpg) no-repeat center/cover;
 }
 .header-wrapper {
-  width: 1440px;
+  width: 100%;
   height: 1023px;
   background: url(./img/photo_2022-06-05_13-14-26\ 1.png) no-repeat center/cover;
   box-shadow: 1px -8px 0px -1px rgba(0, 0, 0, 0.1);
@@ -412,6 +412,7 @@
   text-align: center;
 }
 .left-text {
+  float: left;
   text-align: center;
   width: 33%;
   font-weight: 200;
@@ -448,6 +449,8 @@ li {
   display: flex;
 }
 .p_footer {
+  display: block;
+  float: left;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
