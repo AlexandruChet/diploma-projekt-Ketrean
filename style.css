@@ -1,10 +1,10 @@
-> Sergey:
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
+
 
 .header ul {
   display: flex;
@@ -27,9 +27,9 @@
   margin-right: 120px;
 }
 .info-wrapper {
-  max-width: 100%;;
+  max-width: 100%;
   height: 100%;
-  background: url(./img/Rectangle\ 1.jpg) no-repeat center/cover;;
+  background: url(./img/Rectangle\ 1.jpg) no-repeat center/cover;
 }
 .header-wrapper {
   width: 100%;
@@ -40,19 +40,17 @@
 
 .menu-wrapper {
   width: 100%;
-  height: 1023px;
   background: url(./img/Rectangle\ 25.png) no-repeat center/cover;
 }
 
 .quality-wrapper {
   width: 100%;
-  height: 1023px;
+  height: 853px;
   background: url(./img/msg-1001952986540-392.jpg) no-repeat center/cover;
 }
 
 .Where-wrapper {
   width: 100%;
-  height: 704px;
   background: url(./img/Rectangle\ 27.png) no-repeat center/cover;
 }
 
@@ -60,6 +58,12 @@
   width: 100%;
   height: 351px;
   background: url(./img/Rectangle\ 23.png) no-repeat center/cover;
+}
+
+.wrapper{
+  width: 100%;
+  height: 1023px;
+  background: url(./img/Group\ 49.png) no-repeat center/cover;
 }
 
 .text_1 {
@@ -78,6 +82,7 @@
   color: #fff;
 }
 .Shopping {
+  text-decoration: none;
   width: 207px;
   height: 57px;
   margin-top: 33px;
@@ -161,19 +166,21 @@
   width: 100%;
 }
 .eat {
+  margin-left: 100px ;
   font-weight: 800;
   font-size: 25px;
   color: #fff;
 }
 .order {
+  text-align: center;
+  display: inline-flex;
+  margin-left: 100px;
+  background: #b47b48;
+  padding: 8px 8px;
   font-weight: 800;
-  flex-wrap: wrap;
   font-size: 25px;
   color: #fff;
   border-radius: 17px;
-  width: 160px;
-  height: 41px;
-  background: #b47b48;
 }
 .Cover {
   list-style-type: none;
@@ -216,8 +223,8 @@
   border-radius: 5px;
 }
 .img_photo {
-  width: 294px;
-  height: 180px;
+  width: 100%;
+  height: 253px;
   max-width: 294px;
 }
 
@@ -245,7 +252,6 @@
   color: #fff;
 }
 
-> Sergey:
 .Where div {
   display: flex;
   justify-content: space-between;
@@ -255,7 +261,19 @@
   display: flex;
   flex-direction: column;
 }
+.Where_box {
+  display: flex;
+}
+
+.Bekary_inst {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
 .small_question {
+  text-decoration: none;
   padding-top: 49px;
   font-weight: 300;
   font-size: 24px;
@@ -291,9 +309,7 @@
 }
 .bounty {
   margin-top: 119px;
-  margin-right: 700px;
   display: flex;
-  width: 48%;
   justify-content: space-between;
 }
 .question {
@@ -414,8 +430,10 @@
   text-align: center;
 }
 .left-text {
+  width: 30%;
+  margin-top: 62px;
+  float: left;
   text-align: center;
-  width: 33%;
   font-weight: 200;
   font-size: 40px;
   color: #fff;
@@ -447,9 +465,11 @@ li {
   margin-left: 500px;
 }
 .import {
+  margin-top: 41px;
   display: flex;
 }
 .p_footer {
+  float: ;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
@@ -468,14 +488,21 @@ li {
   color: #fff;
 }
 .the_end {
+  margin-top: 86px;
   font-weight: 100;
   font-size: 20px;
   color: #fff;
   margin-top: 86px;
-  background-color: #272727;
+  background-color: #202023;
+}
+#img{
+  margin-top: 44px;
 }
 .Some_text {
+  padding-top: 54px;
+  width: 60%;
   font-weight: 400;
   font-size: 48px;
   color: #d9d9d9;
 }
+
