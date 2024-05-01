@@ -5,25 +5,16 @@
   padding: 0;
 }
 
-.header ul {
-  display: flex;
-  list-style-type: none;
-  margin-top: 55px;
-}
-
-.header_li1 {
-  display: inline-block;
-  margin-top: 55px;
-  margin-right: 20px;
-  margin-bottom: 71px;
-  color: gray;
-  font-size: 24px;
-  list-style-type: none;
-}
-
-.container {
-  margin-left: 150px;
-  margin-right: 120px;
+@keyframes blink {
+  10% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .info-wrapper {
@@ -58,32 +49,62 @@
 .page {
   width: 100%;
   height: 800px;
-  background: url("./img/msg-1001952986540-392.jpg");
+  background: url(./img/Group\ 49.png) no-repeat center/cover;
 }
-  #number_hea_der{
-    background-color: gray;
-  }
+#number_hea_der {
+  background-color: gray;
+}
 
-  .lastname{
-    margin-left: 100px;
-  }
+.header ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 55px;
+}
+
+.header_li1 {
+  font-family: "Inter";
+  display: inline-block;
+  margin-top: 55px;
+  margin-right: 20px;
+  margin-bottom: 71px;
+  color: gray;
+  font-size: 24px;
+  list-style-type: none;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 120px;
+}
+
+.lastname {
+  margin-left: 100px;
+}
 
 .footer-wrapper {
   width: 100%;
-  height: 351px;
+  height: 415px;
+  background: #202023;
   background: url(./img/Rectangle\ 23.png) no-repeat center/cover;
 }
 
 .text_1 {
+  font-family: "Inter";
   padding-top: 22px;
   padding-right: 709px;
-  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 21px;
+  color: #fff;
+  transition: all 0.5s;
+  width: 40%;
   font-weight: 300;
   font-size: 21px;
   color: #fff;
 }
 
 .Title {
+  width: 60%;
+  font-family: "Inter";
   font-weight: 200;
   padding-top: 155;
   padding-right: 733px;
@@ -92,6 +113,7 @@
 }
 
 .Shopping {
+  font-family: "Inter";
   text-decoration: none;
   width: 207px;
   height: 57px;
@@ -104,17 +126,19 @@
   text-align: center;
   padding: 10px 10px;
   display: inline-block;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.Shopping:hover{
+.Shopping:hover {
+  padding: 20px 20px;
+  border-color: #b47b48;
   font-size: 40px;
 }
 
-.headline-text:hover{
+.headline-text:hover {
   font-size: 40px;
 }
-.Name:hover{
+.Name:hover {
   font-size: 30px;
 }
 
@@ -125,7 +149,10 @@
 }
 
 .price {
-  font-weight: 200;
+  font-family: "Inter";
+  align-items: center;
+  width: 30%;
+  font-weight: 300;
   font-size: 24px;
   color: #fff;
 }
@@ -154,23 +181,26 @@
 .price,
 .Name,
 .headline-text {
-  margin-left: 10px;
+  font-family: 'Inter';
+  margin-left: 61px;
 }
 
 .headline-text {
+  font-family: 'Inter';
   color: #fff;
   background: #c85312;
   text-align: center;
   padding: 5px 5px;
   display: inline-block;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.Name{
-  transition: all .2s;
+.Name {
+  font-family: "Inter";
+  transition: all 0.2s;
   font-weight: 500;
-font-size: 14px;
-color: #fff;
+  font-size: 14px;
+  color: #fff;
 }
 .menu-wrapper {
   width: 100%;
@@ -180,13 +210,13 @@ color: #fff;
 
 .menu_text {
   font-family: "Inter";
-  transition: all .5s;
+  transition: all 0.5s;
   font-weight: 100;
   font-size: 64px;
   color: #fff;
   align-items: center;
 }
-.menu_text:hover{
+.menu_text:hover {
   font-size: 70px;
 }
 
@@ -208,6 +238,7 @@ color: #fff;
 }
 
 .eat {
+  font-family: "Inter";
   margin-left: 100px;
   font-weight: 800;
   font-size: 25px;
@@ -215,6 +246,7 @@ color: #fff;
 }
 
 .order {
+  font-family: "Inter";
   text-align: center;
   display: inline-flex;
   margin-left: 100px;
@@ -249,9 +281,7 @@ color: #fff;
   margin-bottom: 50px;
 }
 
-.photo {
-  align-items: flex-start;
-}
+
 
 .price,
 .Name,
@@ -266,7 +296,6 @@ color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
 }
-
 
 .img_photo:hover {
   border: 1px solid yellow;
@@ -322,6 +351,7 @@ color: #fff;
 }
 
 .Bekary_inst {
+  font-family: "Inter";
   margin-top: 20px;
   font-weight: 300;
   font-size: 24px;
@@ -329,6 +359,7 @@ color: #fff;
 }
 
 .small_question {
+  font-family: "Inter";
   text-decoration: none;
   padding-top: 49px;
   font-weight: 300;
@@ -338,6 +369,7 @@ color: #fff;
 }
 
 .social_network {
+  font-family: "Inter";
   margin-top: 65px;
   font-weight: 300;
   font-size: 24px;
@@ -345,6 +377,7 @@ color: #fff;
 }
 
 .new_time {
+  font-family: "Inter";
   margin-top: 40px;
   font-weight: 200;
   font-size: 24px;
@@ -359,18 +392,12 @@ color: #fff;
   align-items: flex-start;
 }
 
-.menu_text:hover{
+.menu_text:hover {
   border: 40px;
 }
 
 #img {
   margin-right: 132px;
-}
-
-.Quality_bekary {
-  font-weight: 400;
-  font-size: 64px;
-  color: #fff;
 }
 
 .bounty {
@@ -380,6 +407,7 @@ color: #fff;
 }
 
 .question {
+  font-family: "Italiana";
   padding-top: 66px;
   font-weight: 400;
   font-size: 48px;
@@ -387,6 +415,7 @@ color: #fff;
 }
 
 .question_hard {
+  font-family: "Inter";
   margin-right: 81px;
   font-weight: 400;
   font-size: 40px;
@@ -394,12 +423,14 @@ color: #fff;
 }
 
 .question_easy {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 40px;
   color: #fff;
 }
 
 .Stickers {
+  font-family: "Inter";
   margin-right: 100px;
   margin-bottom: 57px;
   justify-content: space-between;
@@ -458,13 +489,12 @@ color: #fff;
   position: relative;
 }
 .header_li1:hover {
-  border: 40px;
-  color: yellow;
+  color: #ffffff;
 }
-
 
 .box::after {
   content: "Quality our bekary";
+  font-family: "Italiana";
   position: absolute;
   color: white;
   left: 23%;
@@ -482,6 +512,9 @@ color: #fff;
   width: 275px;
   height: 284px;
 }
+.img:hover{
+  animation: blink 1s infinite;
+}
 
 .ol {
   display: flex;
@@ -489,6 +522,7 @@ color: #fff;
   row-gap: 6px;
   backdrop-filter: blur(36px);
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+  padding: 32px 4px 50px 10px;
   background: rgba(242, 242, 242, 0.3);
 }
 
@@ -503,18 +537,21 @@ color: #fff;
 }
 
 .li {
+  font-family: "Inter";
   font-weight: 500;
   font-size: 24px;
   color: #fff;
 }
 
 .footer {
+  font-family: "Inter";
   color: #fff;
   padding: 10px 0;
   text-align: center;
 }
 
 .left-text {
+  font-family: "Inter";
   background-color: #202023;
   width: 30%;
   margin-top: 62px;
@@ -525,18 +562,28 @@ color: #fff;
   color: #fff;
 }
 
-.left-text:hover{
+.left-text:hover {
   color: red;
 }
 
 .smoll_left_ultra_text {
+  font-family: "Inter";
   background-color: #202023;
   display: flex;
   margin-left: 145px;
   font-size: 12px;
 }
+.TRADITIONAL_ARTISAX_BAKERY{
+  margin-top: 271px;
+  margin-left: 312px;
+}
+
+#img_img{
+  margin-left: 739px;
+}
 
 .right-text {
+  font-family: "Inter";
   background-color: #202023;
   float: right;
   width: 15%;
@@ -548,6 +595,7 @@ color: #fff;
 }
 
 .small-text {
+  font-family: "Inter";
   font-size: 10px;
 }
 
@@ -556,6 +604,7 @@ li {
 }
 
 .left-text_small-text {
+  font-family: "Inter";
   background-color: #202023;
   display: flex;
   margin-left: 150px;
@@ -563,25 +612,25 @@ li {
   margin-left: 500px;
 }
 
-
-
 .import {
   margin-top: 41px;
   display: flex;
 }
 
 .p_footer {
+  font-family: "Inter";
   margin-top: 16px;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
 }
 
-.p_footer:hover{
+.p_footer:hover {
   color: red;
 }
 
 .footer_li {
+  font-family: "Inter";
   margin-left: 17px;
   margin-right: 215px;
   font-weight: 300;
@@ -589,11 +638,12 @@ li {
   color: #fff;
 }
 
-.footer_li:hover{
+.footer_li:hover {
   color: yellow;
 }
 
 .text_footer {
+  font-family: "Inter";
   margin-right: 219px;
   margin-top: 40px;
   font-weight: 300;
@@ -601,18 +651,20 @@ li {
   text-align: center;
   color: #fff;
 }
-.text_footer:hover{
+.text_footer:hover {
   color: blue;
 }
 
 .the_end {
+  font-family: "Inter";
   margin-top: 86px;
   font-weight: 100;
   font-size: 20px;
   color: #fff;
   margin-top: 86px;
+  margin-bottom: 44px;
 }
-.the_end:hover{
+.the_end:hover {
   color: yellow;
 }
 
@@ -621,6 +673,7 @@ li {
 }
 
 .Some_text {
+  font-family: "Italiana";
   padding-top: 54px;
   width: 60%;
   font-weight: 400;
@@ -657,13 +710,13 @@ li {
   margin-right: 225px;
 }
 
-.header_number{
+.header_number {
   margin-right: 100px;
 }
 
-.img_botter {
+.img_bott {
   height: 447px;
-  float: right;
+  margin-left: 739px: ;
   margin-right: 84px;
 }
 
@@ -673,14 +726,8 @@ li {
   color: #000;
 }
 
-.text_1 {
-  transition: all .5s;
-  width: 40%;
-  font-weight: 300;
-  font-size: 21px;
-  color: #fff;
-}
-.text_1:hover{
+.text_1:hover {
+  font-family: "Italiana";
   width: 60%;
   font-size: 30px;
 }
@@ -689,17 +736,7 @@ li {
   animation: blink 1s infinite;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 
 .img_div:hover {
   transform: scale(1.5);
