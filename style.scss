@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@
     transform: scale(1);
   }
 }
+
 .body_bady {
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -33,58 +35,39 @@
     opacity: 1;
   }
 }
+
 .info-wrapper {
   max-width: 100%;
   height: 100%;
   background: url(./img/Rectangle\ 1.jpg) no-repeat center/cover;
-}
-
-.info-wrapper .container .info .bounty {
-  margin-top: 119px;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-}
-
-.info-wrapper .container .info .bounty .mars {
-  text-align: center; 
-}
-
-.info-wrapper .container .info .bounty .mars img {
-  display: block; 
-  margin: 0 auto; 
-}
-
-.info-wrapper .container .info .bounty .mars .Some_text .Stickers {
-  font-family: "Inter";
-  margin-right: 100px;
-  margin-bottom: 57px;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-}
-
-.Some_text {
-  font-family: 'Italiana';
-  margin-right: 100px;
-  padding-top: 15px;
-  margin-bottom: 57px;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 34px;
-  color: #fff;
-}
-
-.Stickers {
-  font-family: "Inter";
-  margin-right: 100px;
-  margin-bottom: 57px;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
+  & .container {
+    & .info {
+      & .bounty {
+        margin-top: 119px;
+        display: flex;
+        justify-content: space-between;
+        & .mars {
+          & .Stickers {
+            font-family: "Inter";
+            margin-right: 100px;
+            margin-bottom: 57px;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+          }
+        }
+      }
+      & .Some_text {
+        font-family: "Italiana";
+        padding-top: 54px;
+        width: 60%;
+        font-weight: 400;
+        font-size: 48px;
+        color: #d9d9d9;
+      }      
+    }
+  }
 }
 
 .header-wrapper {
@@ -92,48 +75,49 @@
   height: 1023px;
   background: url(./img/photo_2022-06-05_13-14-26\ 1.png) no-repeat center/cover;
   box-shadow: 1px -8px 0px -1px rgba(0, 0, 0, 0.1);
-}
-.header-wrapper-h2 {
-  width: 60%;
-  font-family: "Inter";
-  font-weight: 200;
-  padding-top: 155;
-  padding-right: 733px;
-  font-size: 70px;
-  color: #fff;
-}
-.header-wrapper-p {
-  font-family: "Inter";
-  padding-top: 22px;
-  padding-right: 709px;
-  font-weight: 300;
-  font-size: 21px;
-  color: #fff;
-  transition: all 0.5s;
-  width: 40%;
-  font-weight: 300;
-  font-size: 21px;
-  color: #fff;
-}
-.header-wrapper-p:hover {
-  font-family: "Italiana";
-  width: 60%;
-  font-size: 30px;
-}
-.header-wrapper-ul {
-  display: flex;
-  list-style-type: none;
-  margin-top: 55px;
-}
-.header-wrapper-ul-li {
-  font-family: "Inter";
-  display: inline-block;
-  margin-top: 55px;
-  margin-right: 20px;
-  margin-bottom: 71px;
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  list-style-type: none;
+  &-h2 {
+    width: 60%;
+    font-family: "Inter";
+    font-weight: 200;
+    padding-top: 155;
+    padding-right: 733px;
+    font-size: 70px;
+    color: #fff;
+  }
+  &-p {
+    font-family: "Inter";
+    padding-top: 22px;
+    padding-right: 709px;
+    font-weight: 300;
+    font-size: 21px;
+    color: #fff;
+    transition: all 0.5s;
+    width: 40%;
+    font-weight: 300;
+    font-size: 21px;
+    color: #fff;
+  }
+  &-p:hover {
+    font-family: "Italiana";
+    width: 60%;
+    font-size: 30px;
+  }
+  &-ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 55px;
+
+    &-li {
+      font-family: "Inter";
+      display: inline-block;
+      margin-top: 55px;
+      margin-right: 20px;
+      margin-bottom: 71px;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      list-style-type: none;
+    }
+  }
 }
 
 .header_li1 {
@@ -149,33 +133,33 @@
 
 .header_li1:hover {
   font-family: "Italiana";
-  color: white;
+  color: #ffff;
 }
 
-.article-text .Shopping {
-  margin-bottom: 40px;
-  font-family: "Inter";
-  text-decoration: none;
-  width: 207px;
-  height: 57px;
-  margin-top: 33px;
-  margin-left: 157px;
-  font-size: 24px;
-  color: #fff;
-  border-radius: 17px;
-  background: #b47b48;
-  text-align: center;
-  padding: 10px 10px;
-  display: inline-block;
-  transition: all 0.5s;
-}
-
-.article-text .photo_yellow {
-  display: flex;
-  border-radius: 17px;
-  color: #fff;
-  background: #ebad51;
-  align-items: flex-end;
+.article-text {
+  & .Shopping {
+    margin-bottom: 40px;
+    font-family: "Inter";
+    text-decoration: none;
+    width: 207px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 157px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 17px;
+    background: #b47b48;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  & .photo_yellow {
+    display: flex;
+    border-radius: 17px;
+    background: #ebad51;
+    align-items: flex-end;
+  }
 }
 
 .Shopping:hover {
@@ -184,32 +168,37 @@
   font-size: 40px;
 }
 
-.photo .price {
-  font-family: "Inter";
-  align-items: center;
-  width: 30%;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-}
-.photo .Name {
-  font-family: "Inter";
-}
-.photo .headline-text {
-  font-family: "Inter";
-  color: #fff;
-  background: #c85312;
-  text-align: center;
-  padding: 5px 5px;
-  display: inline-block;
-  transition: all 0.5s;
-}
+.photo & .eat_menu {
+  & .price {
+    font-family: "Inter";
+    align-items: center;
+    width: 30%;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+  }
 
-.photo_yellow {
-  display: flex;
-  border-radius: 17px;
-  background: #ebad51;
-  align-items: flex-end;
+  & .Name {
+    font-family: "Inter";
+  }
+
+  & .headline-text {
+    font-family: "Inter";
+    color: #fff;
+    background: #c85312;
+    text-align: center;
+    padding: 5px 5px;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+
+  & .Pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
 }
 
 .photo {
@@ -223,107 +212,165 @@
 .menu-wrapper {
   width: 100%;
   background: url(./img/Rectangle\ 25.png) no-repeat center/cover;
-}
 
-.menu-wrapper {
-  width: 100%;
-  background: url(./img/Rectangle\ 25.png) no-repeat center/cover;
-}
+  .menu {
+    .menu_text {
+      font-family: "Inter";
+      transition: all 0.5s;
+      font-weight: 100;
+      font-size: 64px;
+      color: #fff;
+      align-items: center;
+    }
 
-.menu-wrapper .menu .menu_text {
-  font-family: "Inter";
-  transition: all 0.5s;
-  font-weight: 100;
-  font-size: 64px;
-  color: #fff;
-  align-items: center;
-}
+    .Pictures {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0;
 
-.menu-wrapper .menu .Pictures {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-}
+      li {
+        flex-wrap: wrap;
+        margin-right: 10px;
+      }
 
-.menu-wrapper .menu .Pictures li {
-  flex-wrap: wrap;
-  margin-right: 10px;
-}
+      img {
+        width: 100%;
+      }
 
-.menu-wrapper .menu .Pictures img {
-  width: 100%;
-}
+      .Cover {
+        list-style-type: none;
+        width: 48%;
+      }
+    }
 
-.menu-wrapper .menu .Pictures .Cover {
-  list-style-type: none;
-  width: 48%;
-}
+    .eat {
+      font-family: "Inter";
+      margin-left: 100px;
+      font-weight: 800;
+      font-size: 25px;
+      color: #fff;
+    }
 
-.menu-wrapper .menu .eat {
-  font-family: "Inter";
-  margin-left: 100px;
-  font-weight: 800;
-  font-size: 25px;
-  color: #fff;
-}
-
-.menu-wrapper .menu .order {
-  font-family: "Inter";
-  text-align: center;
-  display: inline-flex;
-  margin-left: 100px;
-  background: #b47b48;
-  padding: 8px 8px;
-  font-weight: 800;
-  font-size: 25px;
-  color: #fff;
-  border-radius: 17px;
+    .order {
+      font-family: "Inter";
+      text-align: center;
+      display: inline-flex;
+      margin-left: 100px;
+      background: #b47b48;
+      padding: 8px 8px;
+      font-weight: 800;
+      font-size: 25px;
+      color: #fff;
+      border-radius: 17px;
+    }
+  }
 }
 
 .quality-wrapper {
   width: 100%;
   height: 853px;
   background: url(./img/msg-1001952986540-392.jpg) no-repeat center/cover;
-}
-
-.quality-wrapper .container {
-  margin-left: 150px;
-  margin-right: 120px;
-}
-
-.quality-wrapper .container .quality .box {
-  display: flex;
-  height: 852px;
-  border: 1px solid black;
-  background: rgb(163, 157, 157);
-  position: relative;
-}
-
-.quality-wrapper .container .quality .box .bx-item .img {
-  width: 275px;
-  height: 284px;
-}
-
-.quality-wrapper .container .quality .box .bx-item ol .li {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 24px;
-  color: #fff;
+  & .container {
+    margin-left: 150px;
+    margin-right: 120px;
+    & .quality {
+      & .box {
+        display: flex;
+        height: 852px;
+        border: 1px solid black;
+        background: rgb(163, 157, 157);
+        position: relative;
+        & .bx-item {
+          & .img {
+            width: 275px;
+            height: 284px;
+          }
+          & ol {
+            & .li {
+              font-family: "Inter";
+              font-weight: 500;
+              font-size: 24px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .Where-wrapper {
   width: 100%;
   background: url(./img/Rectangle\ 27.png) no-repeat center/cover;
-}
+  & .container {
+    & .Where {
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      & .Where_box {
+        display: flex;
+        & .Where_question {
+          & .question_hard {
+            margin-right: 81px;
+            font-weight: 400;
+            font-size: 40px;
+            color: #fff;
+          }
+          & .small_question {
+            font-family: "Inter";
+            text-decoration: none;
+            padding-top: 49px;
+            font-weight: 300;
+            font-size: 24px;
+            color: #fff;
+            margin-top: 10px;
+          }
+          & .social_network {
+            font-family: "Inter";
+            margin-top: 65px;
+            font-weight: 300;
+            font-size: 24px;
+            color: #fff;
+          }
+          & .Bekary_inst {
+            font-family: "Inter";
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 24px;
+            color: #fff;
+          }
+          & .question_easy {
+            font-weight: 400;
+            font-size: 40px;
+            color: #fff;
+          }
+          & .new_time {
+            font-family: "Inter";
+            margin-top: 40px;
+            font-weight: 200;
+            font-size: 24px;
+            text-align: center;
+            color: #fff;
+          }
+        }
+      }
+    }
+    & .question {
+        padding-top: 66px;
+        font-weight: 400;
+        font-size: 48px;
+        color: #fff;
+      }
+    }
+  }
 
 .page {
   width: 100%;
   height: 800px;
   background: url(./img/Group\ 49.png) no-repeat center/cover;
 }
-
 #number_hea_der {
   background-color: gray;
 }
@@ -377,7 +424,6 @@
 .headline-text:hover {
   font-size: 40px;
 }
-
 .Name:hover {
   font-size: 30px;
 }
@@ -402,30 +448,10 @@
   font-size: 14px;
   color: #fff;
 }
-
 .menu-wrapper {
   width: 100%;
   height: 775px;
   background: #202023;
-}
-
-.menu_text {
-  font-family: "Inter";
-  transition: all 0.5s;
-  font-weight: 100;
-  font-size: 64px;
-  color: #fff;
-  align-items: center;
-}
-
-.menu_text:hover {
-  font-size: 70px;
-}
-
-
-.Cover {
-  list-style-type: none;
-  width: 48%;
 }
 
 .menu-wrapper {
@@ -434,16 +460,6 @@
   background: #202023;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.menu_text {
-  font-family: "Inter";
-  flex-wrap: wrap;
-  font-weight: 100;
-  font-size: 64px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 .price,
@@ -478,65 +494,10 @@
   color: #fff;
 }
 
-.question_hard {
-  margin-right: 81px;
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
-
-.question_easy {
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
 
 .Where div {
   display: flex;
   justify-content: space-between;
-}
-
-.Bekary_inst {
-  font-family: "Inter";
-  margin-top: 20px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-}
-
-.li {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 24px;
-  color: #fff;
-
-}
-
-.small_question {
-  font-family: "Inter";
-  text-decoration: none;
-  padding-top: 49px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.social_network {
-  font-family: "Inter";
-  margin-top: 65px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-}
-
-.new_time {
-  font-family: "Inter";
-  margin-top: 40px;
-  font-weight: 200;
-  font-size: 24px;
-  text-align: center;
-  color: #fff;
 }
 
 #When_box {
@@ -554,27 +515,11 @@
   margin-right: 132px;
 }
 
-
 .question {
   font-family: "Italiana";
   padding-top: 66px;
   font-weight: 400;
   font-size: 48px;
-  color: #fff;
-}
-
-.question_hard {
-  font-family: "Inter";
-  margin-right: 81px;
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
-
-.question_easy {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 40px;
   color: #fff;
 }
 
@@ -636,7 +581,10 @@
   row-gap: 20px;
 }
 
-
+.img {
+  width: 275px;
+  height: 284px;
+}
 .img:hover {
   animation: blink 1s infinite;
 }
@@ -645,8 +593,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 6px;
-  -webkit-backdrop-filter: blur(36px);
-          backdrop-filter: blur(36px);
+  backdrop-filter: blur(36px);
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
   padding: 32px 4px 50px 10px;
   background: rgba(242, 242, 242, 0.3);
@@ -661,7 +608,6 @@
   margin-top: 150px;
   margin-left: 90px;
 }
-
 
 .footer {
   font-family: "Inter";
@@ -693,7 +639,6 @@
   margin-left: 145px;
   font-size: 12px;
 }
-
 .TRADITIONAL_ARTISAX_BAKERY {
   margin-top: 271px;
   margin-left: 312px;
@@ -709,6 +654,7 @@
   float: right;
   width: 15%;
   padding-right: 528px;
+
   justify-content: space-between;
   font-size: 12px;
   margin-top: 10px;
@@ -771,7 +717,6 @@ li {
   text-align: center;
   color: #fff;
 }
-
 .text_footer:hover {
   color: blue;
 }
@@ -785,7 +730,6 @@ li {
   margin-top: 86px;
   margin-bottom: 44px;
 }
-
 .the_end:hover {
   color: yellow;
 }
@@ -852,4 +796,4 @@ li {
 .img_div:hover {
   transform: scale(1.5);
   transition: transform 0.3s ease-in-out;
-}/*# sourceMappingURL=style.css.map */
+}
