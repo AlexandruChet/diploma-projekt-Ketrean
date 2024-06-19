@@ -463,7 +463,7 @@
   background-color: #202023;
   display: flex;
   justify-content: space-between;
-  margin-left: 150px; /* Example, assuming this was intended */
+  margin-left: 150px; 
 }
 
 .footer-wrapper .container .footer .text_footer {
@@ -485,7 +485,7 @@
   background-color: #202023;
   float: right;
   width: 15%;
-  padding-right: 528px; /* Example, assuming this was intended */
+  padding-right: 528px;
   justify-content: space-between;
   font-size: 12px;
   margin-top: 10px;
