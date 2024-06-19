@@ -304,67 +304,90 @@
 .Where-wrapper {
   width: 100%;
   background: url(./img/Rectangle\ 27.png) no-repeat center/cover;
-  & .container {
-    & .Where {
-      flex-wrap: wrap;
+
+  .container {
+    margin-left: 30px;
+
+    .question {
+      font-family: "Italiana";
+      padding-top: 66px;
+      font-weight: 400;
+      font-size: 48px;
+      color: #fff;
+    }
+
+    .Where {
       display: flex;
       flex-direction: column;
-      & .Where_box {
+      flex-wrap: wrap;
+
+      &_box {
         display: flex;
-        & .Where_question {
-          & .question_hard {
-            margin-right: 81px;
-            font-weight: 400;
-            font-size: 40px;
-            color: #fff;
-          }
-          & .small_question {
-            font-family: "Inter";
-            text-decoration: none;
-            padding-top: 49px;
-            font-weight: 300;
-            font-size: 24px;
-            color: #fff;
-            margin-top: 10px;
-          }
-          & .social_network {
-            font-family: "Inter";
-            margin-top: 65px;
-            font-weight: 300;
-            font-size: 24px;
-            color: #fff;
-          }
-          & .Bekary_inst {
-            font-family: "Inter";
-            margin-top: 20px;
-            font-weight: 300;
-            font-size: 24px;
-            color: #fff;
-          }
-          & .question_easy {
-            font-weight: 400;
-            font-size: 40px;
-            color: #fff;
-          }
-          & .new_time {
-            font-family: "Inter";
-            margin-top: 40px;
-            font-weight: 200;
-            font-size: 24px;
-            text-align: center;
-            color: #fff;
-          }
-        }
+        justify-content: space-between;
       }
-    }
-    & .question {
-        padding-top: 66px;
+
+      #img {
+        margin-right: 132px;
+      }
+
+      #When_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .question_hard {
+        font-family: "Inter";
+        margin-right: 81px;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 40px;
+        color: #fff;
+      }
+
+      .small_question {
+        font-family: "Inter";
+        text-decoration: none;
+        padding-top: 49px;
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+        margin-top: 10px;
+      }
+
+      .social_network {
+        font-family: "Inter";
+        margin-top: 65px;
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+      }
+
+      .Bekary_inst {
+        font-family: "Inter";
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+      }
+
+      .question_easy {
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+      }
+
+      .new_time {
+        font-family: "Inter";
+        margin-top: 40px;
+        font-weight: 200;
+        font-size: 24px;
+        text-align: center;
         color: #fff;
       }
     }
   }
+}
 
 .page {
   width: 100%;
@@ -389,6 +412,100 @@
   height: 415px;
   background: #202023;
   background: url(./img/Rectangle\ 23.png) no-repeat center/cover;
+
+  .container {
+    .footer {
+      font-family: "Inter";
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+
+      .left-text {
+        font-family: "Inter";
+        background-color: #202023;
+        width: 30%;
+        margin-top: 62px;
+        float: left;
+        text-align: center;
+        font-weight: 200;
+        font-size: 40px;
+        color: #fff;
+
+        &:hover {
+          color: red;
+        }
+
+        .p_footer {
+          font-family: "Inter";
+          margin-top: 16px;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+
+      .left-text_small-text {
+        font-family: "Inter";
+        background-color: #202023;
+        display: flex;
+        margin-left: 150px; // Пример, чтобы показать использование & для дочерних селекторов
+        justify-content: space-between;
+        margin-left: 500px; // Это дублирование стиля, возможно, это опечатка
+      }
+
+      .text_footer {
+        font-family: "Inter";
+        margin-right: 219px;
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+
+        &:hover {
+          color: blue;
+        }
+      }
+
+      .right-text {
+        font-family: "Inter";
+        background-color: #202023;
+        float: right;
+        width: 15%;
+        padding-right: 528px; // Пример, чтобы показать использование & для дочерних селекторов
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 10px;
+
+        .import {
+          margin-top: 41px;
+          display: flex;
+
+          .footer_li {
+            font-family: "Inter";
+            margin-left: 17px;
+            margin-right: 215px;
+            font-weight: 300;
+            font-size: 24px;
+            color: #fff;
+
+            &:hover {
+              color: yellow;
+            }
+          }
+        }
+      }
+
+      .the_end {
+        font-family: "Inter";
+        color: #fff;
+      }
+    }
+  }
 }
 
 .text_1 {

@@ -318,6 +318,89 @@
   background: url(./img/Rectangle\ 27.png) no-repeat center/cover;
 }
 
+.Where-wrapper .container {
+  margin-left: 30px;
+}
+
+.Where-wrapper .container .question {
+  font-family: "Italiana";
+  padding-top: 66px;
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+}
+
+.Where-wrapper .container .Where {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Where-wrapper .container .Where .Where_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Where-wrapper .container .Where #img {
+  margin-right: 132px;
+}
+
+.Where-wrapper .container .Where #When_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Where-wrapper .container .Where .question_hard {
+  font-family: "Inter";
+  margin-right: 81px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Where-wrapper .container .Where .small_question {
+  font-family: "Inter";
+  text-decoration: none;
+  padding-top: 49px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.Where-wrapper .container .Where .social_network {
+  font-family: "Inter";
+  margin-top: 65px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+.Where-wrapper .container .Where .Bekary_inst {
+  font-family: "Inter";
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+.Where-wrapper .container .Where .question_easy {
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Where-wrapper .container .Where .new_time {
+  font-family: "Inter";
+  margin-top: 40px;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
 .page {
   width: 100%;
   height: 800px;
@@ -340,8 +423,95 @@
 .footer-wrapper {
   width: 100%;
   height: 415px;
-  background: #202023;
-  background: url(./img/Rectangle\ 23.png) no-repeat center/cover;
+  background: #202023 url(./img/Rectangle\ 23.png) no-repeat center/cover;
+}
+
+.footer-wrapper .container .footer {
+  font-family: "Inter";
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-wrapper .container .footer .left-text {
+  font-family: "Inter";
+  background-color: #202023;
+  width: 30%;
+  margin-top: 62px;
+  float: left;
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-wrapper .container .footer .left-text:hover,
+.footer-wrapper .container .footer .left-text .p_footer:hover {
+  color: red;
+}
+
+.footer-wrapper .container .footer .left-text .p_footer {
+  font-family: "Inter";
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-wrapper .container .footer .left-text_small-text {
+  font-family: "Inter";
+  background-color: #202023;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px; /* Example, assuming this was intended */
+}
+
+.footer-wrapper .container .footer .text_footer {
+  font-family: "Inter";
+  margin-right: 219px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-wrapper .container .footer .text_footer:hover {
+  color: blue;
+}
+
+.footer-wrapper .container .footer .right-text {
+  font-family: "Inter";
+  background-color: #202023;
+  float: right;
+  width: 15%;
+  padding-right: 528px; /* Example, assuming this was intended */
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer-wrapper .container .footer .right-text .import {
+  margin-top: 41px;
+  display: flex;
+}
+
+.footer-wrapper .container .footer .right-text .import .footer_li {
+  font-family: "Inter";
+  margin-left: 17px;
+  margin-right: 215px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer-wrapper .container .footer .right-text .import .footer_li:hover {
+  color: yellow;
+}
+
+.footer-wrapper .container .footer .the_end {
+  font-family: "Inter";
+  color: #fff;
 }
 
 .text_1 {
@@ -478,30 +648,9 @@
   color: #fff;
 }
 
-.question_hard {
-  margin-right: 81px;
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
-
-.question_easy {
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
-
 .Where div {
   display: flex;
   justify-content: space-between;
-}
-
-.Bekary_inst {
-  font-family: "Inter";
-  margin-top: 20px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
 }
 
 .li {
@@ -512,70 +661,9 @@
 
 }
 
-.small_question {
-  font-family: "Inter";
-  text-decoration: none;
-  padding-top: 49px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.social_network {
-  font-family: "Inter";
-  margin-top: 65px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-}
-
-.new_time {
-  font-family: "Inter";
-  margin-top: 40px;
-  font-weight: 200;
-  font-size: 24px;
-  text-align: center;
-  color: #fff;
-}
-
-#When_box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
 .menu_text:hover {
   border: 40px;
-}
-
-#img {
-  margin-right: 132px;
-}
-
-
-.question {
-  font-family: "Italiana";
-  padding-top: 66px;
-  font-weight: 400;
-  font-size: 48px;
-  color: #fff;
-}
-
-.question_hard {
-  font-family: "Inter";
-  margin-right: 81px;
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
-}
-
-.question_easy {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 40px;
-  color: #fff;
 }
 
 .foother_text {
@@ -663,28 +751,6 @@
 }
 
 
-.footer {
-  font-family: "Inter";
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.left-text {
-  font-family: "Inter";
-  background-color: #202023;
-  width: 30%;
-  margin-top: 62px;
-  float: left;
-  text-align: center;
-  font-weight: 200;
-  font-size: 40px;
-  color: #fff;
-}
-
-.left-text:hover {
-  color: red;
-}
 
 .smoll_left_ultra_text {
   font-family: "Inter";
@@ -703,17 +769,6 @@
   margin-left: 739px;
 }
 
-.right-text {
-  font-family: "Inter";
-  background-color: #202023;
-  float: right;
-  width: 15%;
-  padding-right: 528px;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-top: 10px;
-}
-
 .small-text {
   font-family: "Inter";
   font-size: 10px;
@@ -723,58 +778,6 @@ li {
   list-style-type: none;
 }
 
-.left-text_small-text {
-  font-family: "Inter";
-  background-color: #202023;
-  display: flex;
-  margin-left: 150px;
-  justify-content: space-between;
-  margin-left: 500px;
-}
-
-.import {
-  margin-top: 41px;
-  display: flex;
-}
-
-.p_footer {
-  font-family: "Inter";
-  margin-top: 16px;
-  font-weight: 300;
-  font-size: 20px;
-  color: #fff;
-}
-
-.p_footer:hover {
-  color: red;
-}
-
-.footer_li {
-  font-family: "Inter";
-  margin-left: 17px;
-  margin-right: 215px;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-}
-
-.footer_li:hover {
-  color: yellow;
-}
-
-.text_footer {
-  font-family: "Inter";
-  margin-right: 219px;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 24px;
-  text-align: center;
-  color: #fff;
-}
-
-.text_footer:hover {
-  color: blue;
-}
 
 .the_end {
   font-family: "Inter";
@@ -788,10 +791,6 @@ li {
 
 .the_end:hover {
   color: yellow;
-}
-
-#img {
-  margin-top: 44px;
 }
 
 .lastname {
